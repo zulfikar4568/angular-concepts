@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SelectorModule } from './selector/selector.module';
-import { StylingModule } from './styling/styling.module';
-import { InputModule } from './input/input.module';
+import { SelectorModule } from './01-selector/selector.module';
+import { StylingModule } from './02-styling/styling.module';
+import { InputModule } from './03-input/input.module';
 
 @Component({
   selector: 'app-root',
