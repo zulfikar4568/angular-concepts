@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { SelectorModule } from './selector/selector.module';
 import { StylingModule } from './styling/styling.module';
+import { InputModule } from './input/input.module';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SelectorModule, StylingModule],
+  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
