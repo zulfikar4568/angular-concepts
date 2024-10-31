@@ -1,4 +1,5 @@
 <router-outlet />
+<!-- ############################ Selector ################################### -->
 <!-- selector cannot duplicate, only rendered once when compiled, case sensitive-->
 
 <!-- Selector Type -->
@@ -11,6 +12,7 @@
 <!-- Selector Attributes -->
 <div custom-attr></div>
 
+<!-- ################################# Styling ############################### -->
 <normal-image />
 <global-image />
 
@@ -18,4 +20,9 @@
   <h2>Ini isi dari hallo</h2>
 </encapsulated-component>
 
+<!-- ################################# Input #################################-->
 <progress-order [orderPercentage]="100" [settingRahasia]="'Capung'"/>
+
+<!-- ###################### Custom event with output ######################### -->
+<!-- Custom event with output -->
+<parent-sidebar />
