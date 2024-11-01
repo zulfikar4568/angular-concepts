@@ -28,4 +28,15 @@
 
 <!-- ###################### Output Function ################################## -->
 <!-- <parent-comp /> -->
-<parent-comp-2 />
+<!-- <parent-comp-2 /> -->
+
+<!-- ############################ Content Projection ####################### -->
+ <custom-card >
+  <div class="card-title">
+    <h1>Card Custom</h1>
+  </div>
+  <h3 ngProjectAs=".card-body">Aliasing content projection</h3>
+  <div class="card-body">
+    <h4>This is body of card</h4>
+  </div>
+</custom-card>

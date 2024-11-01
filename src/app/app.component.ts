@@ -5,11 +5,12 @@ import { StylingModule } from './02-styling/styling.module';
 import { InputModule } from './03-input/input.module';
 import { CustomEventModule } from './04-custom-event/custom-event.module';
 import { OutputFuncModule } from './05-output-function/output-func.module';
+import { ContentProjectionModule } from './06-content-projection/content-projection.module';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule],
+  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule, ContentProjectionModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
