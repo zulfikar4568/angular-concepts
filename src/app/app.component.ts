@@ -8,11 +8,12 @@ import { OutputFuncModule } from './05-output-function/output-func.module';
 import { ContentProjectionModule } from './06-content-projection/content-projection.module';
 import { HostElementModule } from './07-host-elements/host.element.module';
 import { LifecycleModule } from "./08-lifecycle/lifecycle.module";
+import { ComponentQueryModule } from './09-component-query/component-query.module';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule, ContentProjectionModule, HostElementModule, LifecycleModule],
+  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule, ContentProjectionModule, HostElementModule, LifecycleModule, ComponentQueryModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
