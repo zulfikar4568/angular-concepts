@@ -7,11 +7,12 @@ import { CustomEventModule } from './04-custom-event/custom-event.module';
 import { OutputFuncModule } from './05-output-function/output-func.module';
 import { ContentProjectionModule } from './06-content-projection/content-projection.module';
 import { HostElementModule } from './07-host-elements/host.element.module';
+import { LifecycleModule } from "./08-lifecycle/lifecycle.module";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule, ContentProjectionModule, HostElementModule],
+  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule, ContentProjectionModule, HostElementModule, LifecycleModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
