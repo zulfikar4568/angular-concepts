@@ -6,11 +6,12 @@ import { InputModule } from './03-input/input.module';
 import { CustomEventModule } from './04-custom-event/custom-event.module';
 import { OutputFuncModule } from './05-output-function/output-func.module';
 import { ContentProjectionModule } from './06-content-projection/content-projection.module';
+import { HostElementModule } from './07-host-elements/host.element.module';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule, ContentProjectionModule],
+  imports: [RouterOutlet, SelectorModule, StylingModule, InputModule, CustomEventModule, OutputFuncModule, ContentProjectionModule, HostElementModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

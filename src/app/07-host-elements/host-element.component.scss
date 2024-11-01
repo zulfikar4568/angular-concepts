@@ -1,0 +1,57 @@
+fieldset {
+border: solid 2px #aaa;
+border-radius: 0.5em;
+padding: 0.5em 1em 2.5em;
+text-align: center;
+transition: border-color 0.125s ease-in;
+}
+
+section {
+display: flex;
+justify-content: center;
+}
+
+legend {
+background: white;
+color: black;
+font-weight: bold;
+font-size: 1.75em;
+padding-inline: 0.5em;
+transition: color 0.125s ease-in;
+}
+
+input {
+border: solid 1px #aaa;
+font-size: 1.25em;
+margin-right: 0.5em;
+}
+
+button {
+background-color: #ff495d;
+border: solid 1px #ff495d;
+color: white;
+padding: 0 0.75em;
+transition: background-color 0.125s ease-in, border-color 0.125s ease-in,
+  color 0.125s ease-in;
+}
+button.disabled {
+  border-color: #e7e7e7;
+  background-color: #e7e7e7;
+  color: #999;
+}
+
+fieldset.valid {
+  border-color: #00deb7;
+}
+
+fieldset.invalid {
+  border-color: #ff495d;
+}
+
+:host(.valid) {
+  color: #00deb7;
+}
+
+:host(.valid) legend {
+  color: #00deb7;
+}
